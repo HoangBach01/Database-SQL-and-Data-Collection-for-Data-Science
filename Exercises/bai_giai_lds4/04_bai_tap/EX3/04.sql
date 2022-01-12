@@ -1,0 +1,1 @@
+SELECT * FROM suppliers WHERE Id IN (SELECT DISTINCT supplierId FROM products WHERE IsDiscontinued);

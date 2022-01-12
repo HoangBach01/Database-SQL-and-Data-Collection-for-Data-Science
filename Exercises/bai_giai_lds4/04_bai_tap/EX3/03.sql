@@ -1,0 +1,1 @@
+SELECT * FROM customers WHERE Id NOT IN (SELECT CustomerId FROM orders);
